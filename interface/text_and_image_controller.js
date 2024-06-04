@@ -52,6 +52,7 @@ function loadTextFiles(postInfo) {
                    
                   
                     dateElement.className = 'post-date';
+                    dateElement.style.color = 'green';
                     userContainer.appendChild(dateElement);
                     // postContainer.appendChild(userContainer);
                 
