@@ -42,6 +42,7 @@ function loadTextFiles(postInfo) {
     var usernameElement = document.createElement('p');
     usernameElement.innerText = userData.username; 
     usernameElement.className = 'user-name';
+   usernameElement.style.color = 'blue';
     userContainer.appendChild(usernameElement);
 
                   
