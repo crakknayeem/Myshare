@@ -1,0 +1,249 @@
+
+
+
+
+
+
+
+
+
+.present{
+  color:#212121;
+  background: #ececec;
+  
+}
+
+
+body, html {
+    margin:0px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body{
+  background:#212121;
+}
+.container {
+    display: flex;
+}
+.sidebar {
+    width:15%; 
+    height:90vh;
+  
+   background-color:#212121;
+   color: #ececec;
+    position: fixed;
+    overflow-y: scroll;
+    margin-top: 5px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar li {
+  margin:10px 3px;
+    padding:5px 10px;
+    cursor: pointer;
+    border: 2.5px solid rgb(227, 227, 227,0.2);
+    border-radius:15px;
+    color: #ececec;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    
+}
+.main-content {
+   max-width:85%;
+    padding:0px;
+    margin:0px;
+    margin-right: 5px;
+    margin-left: 15%; 
+background:#212121;
+color:white;
+
+}
+.post {
+     padding:5px;
+    margin: 0px;
+   margin-bottom: 20px;
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: justify;
+}
+
+li:hover{
+  background: white;
+  color:#212121;
+  a{
+    color:#212121;
+  }
+ 
+  }
+
+   .head_design {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+    background:#212121;
+    padding: 0px 0px;
+    
+    text-align: center;
+    font-size: 1.05em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+  
+  font-weight: 200;
+ 
+       font-family: "Unbounded", sans-serif;
+  color: #ececec;
+  
+       font-weight: lighter;
+       
+       
+       
+
+
+  padding: 20px; /* Adjust padding as needed for a bolder look */
+  border-radius:0px; /* Optional: Add border-radius for rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced glassy shadow effect */
+
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   
+   
+}
+
+.container {
+    margin-top:80px;
+    
+}
+
+.post-container h1 {
+           padding: 5px;
+           font-size:25px;
+            weight:bold;
+            margin:0px;
+             margin-top:20px;
+            
+          
+           
+            border-radius: 4px;
+           
+
+     }
+        .post-container{
+      padding-right:10px;
+          padding-left: 10px;
+  
+         
+         
+   
+    border-radius: 8px;
+    margin-bottom: 20px;
+   text-align: justify;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+            margin-top:5px;
+margin-left: 5px;
+            border: 1px solid rgb(227, 227, 227,0.2);
+            margin-bottom: 50px;
+            
+  }
+.post-container img {
+    max-width: 100%;
+    height: auto;
+        }
+     li{
+         font-size: 25px;
+       }
+  
+.headicons{
+  font-size:35px;
+  padding:5px 10px;
+ 
+  
+}
+
+
+a{
+  
+ color:#ececec;
+
+ 
+  
+    }
+    
+a:hover{
+ color:#212121;
+ 
+ 
+  
+ }
+
+
+
+/* Add this to your existing styles or create a new style block */
+.user-container {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon {
+    width: 40px; /* Adjust the width of the user icon as needed */
+    height: 40px; /* Adjust the height of the user icon as needed */
+    border-radius: 40%; /* Make the user icon circular */
+    margin-right: 10px; /* Adjust the margin as needed */
+    object-fit: cover;
+}
+
+.user-name {
+    font-weight: bold; /* Optionally make the username bold */
+    
+}
+
+button{
+  border:0px;
+  font-size:15px;
+  font-weight: bold;
+  font-style: italic;
+   color: #ececec;
+   background-color: #212121;
+  margin-bottom: 10px;
+ 
+}
+
+
+
+
+  .head_design {
+           padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .head_design h1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .head_design i {
+            margin-right: 10px;
+        }
+#yourScrollableElement {
+  overflow: auto;
+  scrollbar-width:0px;
+  
+  -ms-overflow-style: none;  /* Internet Explorer 11 */
+}
+
+#yourScrollableElement::-webkit-scrollbar {
+  width: 0px;  /* Adjust the width as needed */
+  display: none;
+}
+
+.post-date{
+  padding-left:30%;
+}
