@@ -80,7 +80,8 @@ function loadTextFiles(postInfo) {
         imageElement.src = 'IMAGES/' + src;
         imageElement.alt = 'Description of your image';
         imageElement.style.width = '100%';
-        imageElement.style.height = '200px';
+        //imageElement.style.height = '200px';
+        imageElement.style.height = 'auto';
         imageElement.style.objectFit = 'cover';
         imageElement.style.display = showFullText ? 'inline' : 'none';
     
