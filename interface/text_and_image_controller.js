@@ -42,8 +42,8 @@ function loadTextFiles(postInfo) {
     var usernameElement = document.createElement('p');
     usernameElement.innerText = userData.username; 
     usernameElement.className = 'user-name';
-    usernameElement.style.color = 'white';
-    usernameElement.style.backgroundColor = 'green';
+  //  usernameElement.style.color = 'white';
+  //  usernameElement.style.backgroundColor = 'green';
     userContainer.appendChild(usernameElement);
 
                   
@@ -53,8 +53,8 @@ function loadTextFiles(postInfo) {
                    
                   
                     dateElement.className = 'post-date';
-                    dateElement.style.color = 'white';
-                     dateElement.style.backgroundColor = 'green';
+                //    dateElement.style.color = 'white';
+                 //    dateElement.style.backgroundColor = 'green';
                     userContainer.appendChild(dateElement);
                     // postContainer.appendChild(userContainer);
                 
