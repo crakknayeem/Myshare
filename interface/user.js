@@ -24,7 +24,7 @@ function addUserIconAndName(userData, postContainer) {
 
 // Example user data
 const userData = {
-    username: "Linkloop",
+    username: "   Linkloop",
     iconSrc: "./interface/LinkLoop.jpeg", // Replace with the actual path
 };
 
