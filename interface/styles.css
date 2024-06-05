@@ -201,8 +201,8 @@ a:hover{
 .user-name {
     font-weight: bold; /* Optionally make the username bold */
     
-  background: green;
-  color: white;
+  background:#EDB70A;
+  color:black;
 
 }
 
