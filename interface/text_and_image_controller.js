@@ -1,4 +1,3 @@
-
 function formatDate(date) {
     return new Date(date).toLocaleDateString(); // Adjust formatting as needed
 }
@@ -89,7 +88,6 @@ function loadTextFiles(postInfo) {
                     var seeMoreButton = createButton('see more...', 'inline', function () {
                         showFullText = true;
                         textElement.innerHTML = postContent;
-                        postContainer.classList.add('red-text'); // Add the red text class
                         toggleContentVisibility();
                     });
                     postContainer.appendChild(seeMoreButton);
@@ -97,12 +95,16 @@ function loadTextFiles(postInfo) {
                     var seeLessButton = createButton('see less...', 'none', function () {
                         showFullText = false;
                         textElement.innerHTML = postContent.substring(0, 100);
-                        postContainer.classList.remove('red-text'); // Remove the red text class
                         toggleContentVisibility();
                     });
                     postContainer.appendChild(seeLessButton);
 
                     postsContainer.appendChild(postContainer);
+
+                    // Add event listener to the post container to change text color to red
+                    postContainer.addEventListener('click', function () {
+                        postContainer.classList.add('red-text');
+                    });
 
                     function toggleContentVisibility() {
                         var imageDisplayStyle = showFullText ? 'inline' : 'none';
@@ -138,9 +140,7 @@ function loadTextFiles(postInfo) {
 
 // Call the loadTextFiles function with postInfo as an argument
 loadTextFiles(postInfo);
-
-
-
+                            
 
 
 
