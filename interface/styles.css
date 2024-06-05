@@ -201,6 +201,9 @@ a:hover{
 .user-name {
     font-weight: bold; /* Optionally make the username bold */
     
+  background: green;
+  color: white;
+
 }
 
 button{
@@ -246,4 +249,6 @@ button{
 
 .post-date{
   padding-left:30%;
+  background:green;
+  color: white;
 }
