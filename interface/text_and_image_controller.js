@@ -76,7 +76,7 @@ function loadTextFiles(postInfo) {
                     });
 
                     // Display the first 100 characters of the text initially
-                    textElement.innerHTML = postContent.substring(0, 100);
+                    textElement.innerHTML = postContent.substring(0, 400);
                     textElement.onclick = function () {
                         showFullText = !showFullText;
                         textElement.innerHTML = showFullText ? postContent : postContent.substring(0, 100);
